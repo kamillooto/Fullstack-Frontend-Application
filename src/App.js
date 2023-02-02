@@ -14,10 +14,10 @@ function App() {
         <Navbar/>
 
         <Routes>
-          <Route exact path='test-app-frontend/' element={<Home />}/>
-          <Route exact path='test-app-frontend/adduser' element={<AddUser />}/>
-          <Route exact path='test-app-frontend/edituser/:id' element={<EditUser />}/>
-          <Route exact path='test-app-frontend/viewuser/:id' element={<ViewUser />}/>
+          <Route exact path='Fullstack-Frontend-Application/' element={<Home />}/>
+          <Route exact path='Fullstack-Frontend-Application/adduser' element={<AddUser />}/>
+          <Route exact path='Fullstack-Frontend-Application/edituser/:id' element={<EditUser />}/>
+          <Route exact path='Fullstack-Frontend-Application/viewuser/:id' element={<ViewUser />}/>
         </Routes>
       </Router>
     </div>

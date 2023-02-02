@@ -45,7 +45,7 @@ export default function ViewUser() {
                         </ul>
                     </div>
                 </div>
-                <Link className='btn btn-primary my-2' to={"/test-app-frontend/"}>
+                <Link className='btn btn-primary my-2' to={"/Fullstack-Frontend-Application/"}>
                     Back to Home
                 </Link>
             </div>

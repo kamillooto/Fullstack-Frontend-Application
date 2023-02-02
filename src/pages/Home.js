@@ -46,9 +46,9 @@ export default function Home() {
             <td>{user.email}</td>
             <td>
                 <Link className='btn btn-primary mx-2'
-                to={`/test-app-frontend/viewuser/${user.id}`}>View</Link>
+                to={`/Fullstack-Frontend-Application/viewuser/${user.id}`}>View</Link>
                 <Link className='btn btn-outline-primary mx-2' 
-                to={`/test-app-frontend/edituser/${user.id}`}>
+                to={`/Fullstack-Frontend-Application/edituser/${user.id}`}>
                     Edit</Link>
                 <button className='btn btn-danger mx-2'
                 onClick={()=>deleteUser(user.id)}>

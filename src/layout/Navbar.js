@@ -7,7 +7,7 @@ export default function Navbar() {
 
 <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
   <div className="container-fluid">
-    <Link className="navbar-brand" to={"/test-app-frontend/"}>
+    <Link className="navbar-brand" to={"/Fullstack-Frontend-Application/"}>
         Full Stack Application
     </Link>
     <button className="navbar-toggler" 
@@ -20,7 +20,7 @@ export default function Navbar() {
       <span className="navbar-toggler-icon"></span>
     </button>
 
-    <Link className="btn btn-outline-light" to="test-app-frontend/adduser">
+    <Link className="btn btn-outline-light" to="/Fullstack-Frontend-Application/adduser">
       Add User
       </Link>
   </div>
