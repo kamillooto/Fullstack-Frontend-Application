@@ -14,10 +14,10 @@ function App() {
         <Navbar/>
 
         <Routes>
-          <Route exact path='/' element={<Home />}/>
-          <Route exact path='/adduser' element={<AddUser />}/>
-          <Route exact path='/edituser/:id' element={<EditUser />}/>
-          <Route exact path='/viewuser/:id' element={<ViewUser />}/>
+          <Route exact path='test-app-frontend/' element={<Home />}/>
+          <Route exact path='test-app-frontend/adduser' element={<AddUser />}/>
+          <Route exact path='test-app-frontend/edituser/:id' element={<EditUser />}/>
+          <Route exact path='test-app-frontend/viewuser/:id' element={<ViewUser />}/>
         </Routes>
       </Router>
     </div>

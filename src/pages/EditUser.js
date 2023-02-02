@@ -81,7 +81,7 @@ export default function EditUser() {
                     />
                 </div>
                 <button type='submit' className='btn btn-outline-primary'>Submit</button>
-                <Link className='btn btn-outline-danger mx-2' to={"/"}>Cancel</Link>
+                <Link className='btn btn-outline-danger mx-2' to={"/test-app-frontend/"}>Cancel</Link>
                 </form>
             </div>
         </div>
